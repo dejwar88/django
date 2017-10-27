@@ -1,0 +1,41 @@
+{% extends 'guestbookapp/base.html' %}
+
+{% load staticfiles %}
+
+{% block body_block %}
+
+    {% if entries %}
+
+        <p>
+            Current comments in the guestbook:
+        </p>
+
+        <table>
+            <tr>
+                <th>User</th><th>Comment</th><th>Date</th><th></th><th></th>
+            </tr>
+            {% for entry in entries %}
+                <tr>
+                    <td>{{ entry.user }}</td>
+                    <td>{{ entry.comment }}</td>
+                    <td>{{ entry.updated_at }}</td>
+                    <td><a href="/guestbook/update/{{ entry.id }}">Update</a></td>
+                    <td><a href="/guestbook/delete/{{ entry.id }}">Delete</a></td>
+                </tr>
+            {% endfor %}
+        </table>
+    {% else %}
+       <p>
+        The guestbook is currently empty. What a pity.
+       </p>
+    {% endif %}
+
+    <h1>New Comment</h1>
+
+    <form id="new_entry_form" method="post" action="">
+        {% csrf_token %}
+        {{ form }}
+        <p></p>
+        <input type="submit" name="submit" value="Confirm" />
+    </form>
+{% endblock %}

@@ -1,0 +1,98 @@
+[
+  {
+    "model": "guestbookapp.entry",
+    "pk": 1,
+    "fields": {
+      "user": "Catrin Morgan",
+      "comment": "Nice use of contrast in this colour palette."
+    }
+  },
+  {
+    "model": "guestbookapp.entry",
+    "pk": 2,
+    "fields": {
+      "user": "Cletus Spalding",
+      "comment": "It's splendid not just sleek!"
+    }
+  },
+  {
+    "model": "guestbookapp.entry",
+    "pk": 3,
+    "fields": {
+      "user": "Grigor Martel",
+      "comment": "This is alluring work!"
+    }
+  },
+  {
+    "model": "guestbookapp.entry",
+    "pk": 4,
+    "fields": {
+      "user": "Finnegan Draper",
+      "comment": "Super thought out! Leading the way, mate."
+    }
+  },
+  {
+    "model": "guestbookapp.entry",
+    "pk": 5,
+    "fields": {
+      "user": "Zac Quincy",
+      "comment": "My 49 year old daughter rates this shot very splendid :)"
+    }
+  },
+  {
+    "model": "guestbookapp.entry",
+    "pk": 6,
+    "fields": {
+      "user": "Grigor Martel",
+      "comment": "Such shot, many button, so simple."
+    }
+  },
+  {
+    "model": "guestbookapp.entry",
+    "pk": 7,
+    "fields": {
+      "user": "Terrence Sutherland",
+      "comment": "Looks revolutionary and admirable, friend."
+    }
+  },
+  {
+    "model": "guestbookapp.entry",
+    "pk": 8,
+    "fields": {
+      "user": "Terrence Sutherland",
+      "comment": "I want to learn this kind of shot! Teach me."
+    }
+  },
+  {
+    "model": "guestbookapp.entry",
+    "pk": 9,
+    "fields": {
+      "user": "Zac Quincy",
+      "comment": "Incredible work you have here."
+    }
+  },
+  {
+    "model": "guestbookapp.entry",
+    "pk": 10,
+    "fields": {
+      "user": "Grigor Martel",
+      "comment": "Engaging. It keeps your mind occupied while you wait."
+    }
+  },
+  {
+    "model": "guestbookapp.entry",
+    "pk": 11,
+    "fields": {
+      "user": "Katharine McKenzie",
+      "comment": "White. This is new school."
+    }
+  },
+  {
+    "model": "guestbookapp.entry",
+    "pk": 12,
+    "fields": {
+      "user": "Zac Quincy",
+      "comment": "I approve your shot."
+    }
+  }
+]
